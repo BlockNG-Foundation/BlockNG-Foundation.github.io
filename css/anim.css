@@ -1,0 +1,9 @@
+.fade-in-bottom {
+    opacity: 0;
+    transform: translate(0, 80px);
+    transition: all .6s
+}
+.from-bottom {
+    transform: translate(0, 0) !important;
+    opacity: 1 !important;
+}

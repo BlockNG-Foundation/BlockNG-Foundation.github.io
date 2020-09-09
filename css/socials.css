@@ -1,0 +1,124 @@
+.social-icons {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.social-icons>a {
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.social-icons>a>div {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.social-icons>a>div::before {
+    position: absolute;
+    top: -24px;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    border-radius: 10%;
+    transition: all .2s;
+    opacity: 0.9;
+}
+
+.social-icons>a>div::after {
+    position: absolute;
+    top: 0px;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    border-radius: 10%;
+    transition: all .2s;
+    opacity: 0.6;
+}
+
+.social-icons>a:hover>div::before {
+    top: 0px;
+}
+
+.social-icons>a:hover>div::after {
+    top: 24px;
+}
+
+.social-icons>#fb>div::after {
+    background-image: url("../images/social/facebook-b.png");
+
+}
+
+.social-icons>#tw>div::after {
+    background-image: url("../images/social/twitter-b.png");
+}
+
+.social-icons>#me>div::after {
+    background-image: url("../images/social/medium-b.png");
+}
+
+.social-icons>#tg>div::after {
+    background-image: url("../images/social/telegram-b.png");
+}
+
+.social-icons>#wc>div::after {
+    background-image: url("../images/social/wechat-b.png");
+}
+
+.social-icons>#git>div::after {
+    background-image: url("../images/social/github-b.png");
+}
+
+.social-icons>#li>div::after {
+    background-image: url("../images/social/linkedin-b.png");
+}
+
+.social-icons>#fb>div::before {
+    background-image: url("../images/social/facebook-f.png");
+
+}
+
+.social-icons>#tw>div::before {
+    background-image: url("../images/social/twitter-f.png");
+}
+
+.social-icons>#me>div::before {
+    background-image: url("../images/social/medium-f.png");
+}
+
+.social-icons>#tg>div::before {
+    background-image: url("../images/social/telegram-f.png");
+}
+
+.social-icons>#wc>div::before {
+    background-image: url("../images/social/wechat-f.png");
+}
+
+.social-icons>#git>div::before {
+    background-image: url("../images/social/github-f.png");
+}
+
+.social-icons>#li>div::before {
+    background-image: url("../images/social/linkedin-f.png");
+}
+
+a#wc {
+    position: relative;
+}
+
+a#wc:hover>.wechat-qr-code {
+    display: inherit;
+}
+
+.wechat-qr-code {
+    position: absolute;
+    left: 48px;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .4);
+    display: none;
+}
