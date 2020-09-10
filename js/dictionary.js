@@ -78,7 +78,7 @@ const dictionary = {
         'CN': 'Coming Soon'
     },
     'service-title3': {
-        'EN': 'BLESSING FOUND',
+        'EN': 'BLESSING FUND',
         'CN': '福报基金会'
     },
     'service-content3': {
