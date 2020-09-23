@@ -2,10 +2,10 @@ html,
 body {
     --theme-color: rgba(61, 172, 147, 1);
     --theme-color-shadow: rgba(61, 172, 147, .6);
-    --theme-background: rgba(30, 28, 46, 1);
-    --theme-background-light: rgba(40, 39, 53, 1);
-    --theme-background-dark: rgb(25, 25, 39);
-    --theme-background-darker: rgb(22, 21, 32);
+    --theme-background: rgba(75, 37, 112, 1);
+    --theme-background-light: rgba(107, 37, 110, 1);
+    --theme-background-dark: rgb(52, 35, 103);
+    --theme-background-darker: rgb(52, 35, 103);
     --theme-header-color: rgba(55, 52, 69, .8);
     --theme-button-hover: rgb(64, 60, 80);
     --text-white: rgba(255, 255, 255, 1);
@@ -117,7 +117,7 @@ a .dark #header.sticky-header:not(.transparent-header) #header-wrap:not(.not-dar
 .content {
     height: 100vh;
     justify-content: center;
-    background-image: url("images/EUUGEEFWAAE00hV.jpg");
+    background-image: url("images/Fluid Gradient Background.svg");
     background-size: cover;
     background-position: center;
 }

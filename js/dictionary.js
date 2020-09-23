@@ -4,7 +4,7 @@ const dictionary = {
         'CN': '标题',
     },
     'subtitle': {
-        'EN': 'Dedicated to exploring the boundaries of the classical blockchain',
+        'EN': 'DEDICATED TO EXPLORING THE BOUNDARIES OF THE CLASSICAL BLOCKCHAIN',
         'CN': '致力於探索古典區塊鏈的邊界',
     },
     /*-- Nav Bar Entries --*/
